@@ -114,9 +114,7 @@ async def generate_session(bot, msg, telethon=False):
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    await phone_code_msg.reply("<b>Berhasil Membuat {} String Session</b>\n\n<code>{}</code>\n\n<b>Support:</b> @CilikSupport".format("Telethon" if telethon else "Pyrogram", string_session))
-    await client.disconnect() Megambil {} string session. \n\nSilahkan cek di Pesan Tersimpan/Saved Message! \n\nSupport Grup @CilikSupport".format("telethon" if telethon else "pyrogram"))
-
+    await phone_code_msg.reply("<b>Berhasil Membuat {} String Session</b>\n\n<code>{}</code>\n\n<b>Support:</b> @CilikSupport".format("telethon" if telethon else "pyrogram", string_session))
 
 async def cancelled(msg):
     if "/cancel" in msg.text:
