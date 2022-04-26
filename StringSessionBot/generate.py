@@ -115,6 +115,8 @@ async def generate_session(bot, msg, telethon=False):
     else:
         string_session = await client.export_session_string()
     await phone_code_msg.reply("<b>Berhasil Membuat {} String Session</b>\n\n<code>{}</code>\n\n<b>Support:</b> @CilikSupport".format("telethon" if telethon else "pyrogram", string_session))
+    await client.disconnect()
+
 
 async def cancelled(msg):
     if "/cancel" in msg.text:
