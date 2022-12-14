@@ -8,7 +8,7 @@ Halo {}
 
 Selamat datang {}
 Bot ini Bekerja Untuk Mendapatkan String Session Via Bot.
-By @greyyvbss
+By @kalijogo
     """
 
     # Home Button
@@ -24,12 +24,12 @@ By @greyyvbss
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
-        [InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/greyyvbss")],
+        [InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/kalijogo")],
         [
             InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅ ?", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
         ],
-        [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/CilikSupport")],
+        [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url="https://t.mestufsupport")],
     ]
 
     # Help Message
@@ -48,9 +48,9 @@ By @greyyvbss
     ABOUT = """
 **About This Bot** 
 
-Pyrogram dan telethon string session by @CilikStringBot
+Pyrogram dan telethon string session by @StringerStufBot
 
-Group Support : [support](https://t.me/CilikSupport)
+Group Support : [support](https://t.me/stufsupport)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
